@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346308315779",
+    "project_id": "techpal-32c2d",
+    "storage_bucket": "techpal-32c2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346308315779:android:c445f63e1e09ff635869b6",
+        "android_client_info": {
+          "package_name": "com.flyxed.techpal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxEVgeZvQhZLVF5lYPfpVa3tEyVzo-VWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

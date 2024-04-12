@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/techpal_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!--Main Image-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/techpal" />
+
+    <!--Subtext-->
+    <TextView
+        android:id="@+id/home_subText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="What can I help you with today?"
+        android:textColor="@color/techpal_gray1"
+        android:textSize="20sp"
+        android:fontFamily="@font/comfortaa_bold" />
+
+    <!-- Buttons wrapped inside a container -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp">
+
+        <Button
+            android:id="@+id/button_cws"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/techpal_button"
+            android:text="Computer Won't Start"
+            />
+
+        <Button
+            android:id="@+id/button_crs"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/techpal_button"
+            android:text="Computer Running Slow" />
+
+        <Button
+            android:id="@+id/button_mib"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/techpal_button"
+            android:text="Monitor is Blank" />
+
+        <Button
+            android:id="@+id/button_iss"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/techpal_button"
+            android:text="Internet is Slow" />
+
+        <Button
+            android:id="@+id/button_cc"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/techpal_button"
+            android:text="Computer Crashes" />
+
+        <!-- Add more buttons as needed -->
+
+    </LinearLayout>
+
+</RelativeLayout>

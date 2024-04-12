@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/techpal_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Title"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Issue Solved!"
+        android:textColor="@color/techpal_gray1"
+        android:textSize="40sp"
+        android:fontFamily="@font/comfortaa_bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/techpal_icon2" />
+
+    <TextView
+        android:id="@+id/subText1"
+        android:visibility="invisible"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        android:gravity="center"
+        android:text="Glad to be of assistance!
+        Let me know if you have any other issues!"
+        android:textColor="@color/techpal_gray1"
+        android:textSize="24sp"
+        android:fontFamily="@font/comfortaa" />
+
+    <Button
+        android:id="@+id/rh"
+        android:visibility="invisible"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/techpal_button"
+        android:text="Return Home" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechPal"
+        tools:targetApi="31"
+        tools:ignore="DiscouragedApi">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComputerWontStart"
+            android:exported="true"
+            android:label="Computer Won't Start"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ComputerRunningSlow"
+            android:exported="true"
+            android:label="Computer Running Slow"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MonitorIsBlank"
+            android:exported="true"
+            android:label="Monitor is Blank"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".InternetIsSlow"
+            android:exported="true"
+            android:label="Internet is Slow"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ComputerCrashes"
+            android:exported="true"
+            android:label="Software Crashes/Errors"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".IssueSolved"
+            android:exported="true"
+            android:label="Issue Solved"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".IssueFailed"
+            android:exported="true"
+            android:label="Issue Solved"
+            android:theme="@style/Theme.TechPal"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

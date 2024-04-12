@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/techpal_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/techpal_icon4" />
+
+    <TextView
+        android:id="@+id/if_subText1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:gravity="center"
+        android:text="That’s strange... Your issue should’ve been easier to solve than this! I’m sorry, but I can’t help any further!"
+        android:textColor="@color/techpal_gray1"
+        android:textSize="18dp"
+        android:fontFamily="@font/comfortaa" />
+
+    <TextView
+        android:id="@+id/if_subText2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:gravity="center"
+        android:text="If you're still struggling with this issue, try looking for other solutions online! TechPal is unable to provide every type of solution to a problem."
+        android:textColor="@color/techpal_gray1"
+        android:textSize="24sp"
+        android:fontFamily="@font/comfortaa" />
+
+    <Button
+        android:id="@+id/if_search"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="590dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/techpal_button"
+        android:text="Search Issue Online" />
+
+    <Button
+        android:id="@+id/if_rh"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/techpal_button"
+        android:text="Return Home" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/techpal_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/techpal_icon1" />
+
+    <TextView
+        android:id="@+id/subText1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:gravity="center"
+        android:text="Your internet is slow? Try the steps below!"
+        android:textColor="@color/techpal_gray1"
+        android:textSize="20sp"
+        android:fontFamily="@font/comfortaa_bold" />
+
+    <TextView
+        android:id="@+id/subText2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp"
+        android:gravity="center"
+        android:text="Click 'This Helped!' once your issue is solved, otherwise press 'Didn't Work...' for the next step."
+        android:textColor="@color/techpal_gray1"
+        android:textSize="16sp"
+        android:fontFamily="@font/comfortaa_light" />
+
+    <TextView
+        android:id="@+id/step"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:gravity="center"
+        android:text="STEPS_GO_HERE"
+        android:textColor="@color/techpal_gray1"
+        android:textSize="20sp"
+        android:fontFamily="@font/comfortaa_light" />
+    />
+
+    <Button
+        android:id="@+id/th"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="30dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/techpal_button"
+        android:text="This helped!" />
+
+    <Button
+        android:id="@+id/dw"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="210dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/techpal_button"
+        android:text="Didn't work..." />
+
+</RelativeLayout>
